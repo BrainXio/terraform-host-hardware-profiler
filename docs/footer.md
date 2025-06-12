@@ -10,6 +10,7 @@
 - OS distribution requires `lsb_release` or `/etc/os-release` (Linux); CPU max frequency may require `/sys/devices`, `/proc/cpuinfo`, or `dmidecode`. Unavailable fields default to 'unknown'.
 - Generate documentation with `make docs`, which runs `terraform-docs` with headers and footers from `docs/`.
 - CI/CD is handled by GitHub Actions workflows (`.github/workflows/lint.yml` for linting and `.github/workflows/validate.yml` for validation).
+- See `examples/simple/README.md` for a basic usage example of the module.
 - If unexpected files (e.g., `project.json`) appear, ensure they are excluded in `.gitignore` or manually removed before committing.
 
 ## Resources
